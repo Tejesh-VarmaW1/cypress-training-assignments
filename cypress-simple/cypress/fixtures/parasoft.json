@@ -1,0 +1,14 @@
+{
+  "url": "https://www.parasoft.com/contact/",
+  "email": "test123@gmail.com",
+  "firstname": "Cyy",
+  "lastname": "press",
+  "company": "Sample",
+  "job_title": "hands on",
+  "phone_number":"9182736450",
+  "comments":"No comments",
+  "country":"India",
+  "pageDescription": "Reach out to the Parasoft team with your questions.",
+  "errorMsg":"Email must be formatted correctly.",
+  "confirmationMsg": "We appreciate you reaching out to us. One of our experts will be in touch with you soon."
+}

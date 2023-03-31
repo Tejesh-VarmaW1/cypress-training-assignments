@@ -9,3 +9,18 @@ Hands-on _ 1 
 7. verify the Error meesage for Email Field 
 8. Enter the Email as test123@gmail.com and click on submit 
 9. verify confirmation message is displayed 
+
+// cy.get(".rt-tbody :nth-child(7)").each(($el, index, $list) => {
+    //   cy.get(".rt-td > .action-buttons > .mr-2").eq(index).click();
+    //   let text;
+    //   cy.get("#firstName").then(function (element) {
+    //     text = element.text();
+    //   });
+    //   if (text == "Alden") {
+    //     cy.get("#salary").clear();
+    //     cy.get("#salary").type("13000");
+    //     cy.get("#submit").click();
+    //   } else {
+    //     cy.get(".close").click();
+    //   }
+    // });

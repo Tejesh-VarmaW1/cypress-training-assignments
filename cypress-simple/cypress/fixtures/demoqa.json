@@ -1,0 +1,12 @@
+{
+    "url" : "https://demoqa.com",
+    "color":"r",
+    "aldenSalary" : "13000",
+    "cantrellSalary": "13000",
+    "colors":["Red","Green","Purple"],
+    "Action":7,
+    "FirstName":1,
+    "LastName":2,
+    "Salary":13000
+
+}

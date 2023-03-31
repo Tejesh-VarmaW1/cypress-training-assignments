@@ -1,0 +1,16 @@
+{
+  "name": "cypress-simple",
+  "version": "1.0.0",
+  "description": "Hands-on _ 1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^12.9.0",
+    "typescript": "^5.0.2"
+  }
+}
