@@ -24,3 +24,18 @@ Hands-on _ 1 
     //     cy.get(".close").click();
     //   }
     // });
+
+    /// <reference types="Cypress" />
+
+describe("Medium handson 2", function () {
+  it("Booking flight", function () {
+    cy.visit("https://www.booking.com/");
+    cy.get("a[href='/category/men']")
+      .click()
+      .get(".row > :nth-child(1) > :nth-child(2) > :nth-child(2) > a")
+      .click();
+    cy.get(".accordianTitle0sFilters").click();
+    cy.get("input[type='checkbox']").contains("Indo Western").check();
+    cy.get("input[type='checkbox']").contains("Sherwani").check();
+  });
+});
